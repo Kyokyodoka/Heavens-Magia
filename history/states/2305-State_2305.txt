@@ -1,0 +1,9 @@
+state={
+	id=2305
+	name="STATE_2305"
+	provinces={
+		918 3259 4587 6672 7690 8718 9676 9981 11485 23338 23354 23371 23376 23405 23433 23468 23476 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

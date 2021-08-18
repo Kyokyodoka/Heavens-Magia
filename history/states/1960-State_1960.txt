@@ -1,0 +1,9 @@
+state={
+	id=1960
+	name="STATE_1960"
+	provinces={
+		459 462 961 4489 6660 7381 7696 7706 9731 9770 10823 10846 18961 19116 19229 19302 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

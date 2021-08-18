@@ -1,0 +1,9 @@
+state={
+	id=2010
+	name="STATE_2010"
+	provinces={
+		1962 12221 19510 19892 19900 19985 20063 20084 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

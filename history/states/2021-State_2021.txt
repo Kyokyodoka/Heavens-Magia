@@ -1,0 +1,9 @@
+state={
+	id=2021
+	name="STATE_2021"
+	provinces={
+		63 401 1428 2932 4618 7107 7224 9586 10277 12521 13101 19926 20091 20113 20156 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

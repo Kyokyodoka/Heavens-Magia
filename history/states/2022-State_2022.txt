@@ -1,0 +1,9 @@
+state={
+	id=2022
+	name="STATE_2022"
+	provinces={
+		2329 8426 9672 12001 12459 19747 19809 19875 19935 19965 20105 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
