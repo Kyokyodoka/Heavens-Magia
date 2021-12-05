@@ -1,0 +1,16 @@
+characters={
+	sayaka_miki={
+		name=sayaka_miki
+		portraits={
+			civilian={
+				large="gfx/leaders/GRA/sayaka.png"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			traits={ }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}
