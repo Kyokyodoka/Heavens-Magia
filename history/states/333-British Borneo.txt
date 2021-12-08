@@ -12,7 +12,8 @@ state=
 
 	history=
 	{
-		owner = MAL
+		owner = NEU
+		add_core_of = NEU
 		victory_points = {
 			7371 1
 		}

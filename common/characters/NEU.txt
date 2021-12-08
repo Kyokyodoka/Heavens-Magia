@@ -1,9 +1,9 @@
 characters={
-	sayaka_miki={
-		name=sayaka_miki
+	jakarta={
+		name=jakarta
 		portraits={
 			civilian={
-				large="gfx/leaders/GRA/sayaka.png"
+				large="gfx/leaders/NEU/jakarta.png"
 			}
 		}
 		country_leader={

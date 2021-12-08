@@ -243,3 +243,6 @@ MEL = "countries/Mariel.txt"
 #North America
 
 GRA = "countries/Graveguard.txt"
+
+#Asia
+NEU = "countries/Neusantara.txt"
