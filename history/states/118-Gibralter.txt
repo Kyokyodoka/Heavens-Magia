@@ -6,7 +6,8 @@ state=
 	
 	state_category = enclave
 	history={
-		owner = ENG
+		owner = IBR
+		add_core_of = IBR
 		victory_points = { 4135 10 }
 		buildings = {
 			infrastructure = 3

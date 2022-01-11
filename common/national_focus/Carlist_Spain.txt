@@ -1,0 +1,326 @@
+focus_tree = {
+	id = carlist_spain
+	
+	country = {
+		factor = 0
+		
+	}
+	
+	default = yes
+	reset_on_civilwar = no
+	focus = {
+        id = CARLIST_monarchy_restored
+        icon = GFX
+        cost = 10
+
+        x = 6
+        y = 0
+
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = CARLIST_denounce_fake_gods
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = CARLIST_monarchy_restored
+		 }
+
+	    relative_position_id = CARLIST_monarchy_restored
+		x = 0
+		y = 1
+
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = CARLIST_something_unexpected
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = CARLIST_denounce_fake_gods
+		 }
+
+		 relative_position_id = CARLIST_monarchy_restored
+		 x = 0
+		 y = 2
+
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = CARLIST_root_out_the_heretics
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = CARLIST_something_unexpected
+		 }
+
+		 relative_position_id = CARLIST_monarchy_restored
+		 x = 0
+		 y = 3
+
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = CARLIST_the_heretcal_race
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = CARLIST_root_out_the_heretics
+		 }
+
+		 relative_position_id = CARLIST_monarchy_restored
+		 x = 0
+		 y = 4
+
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = CARLIST_the_Scourge_of_god
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = CARLIST_the_heretcal_race
+		}
+
+		relative_position_id = CARLIST_monarchy_restored
+		x = 0
+		y = 5
+
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = CARLIST_remake_conquistadors
+        icon = GFX
+        cost = 10
+		relative_position_id = CARLIST_monarchy_restored
+
+		prerequisite = {
+			focus = CARLIST_monarchy_restored
+		 }
+
+        x = -2
+        y = 1
+
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = CARLIST_revive_cortez
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = CARLIST_remake_conquistadors
+		 }
+		relative_position_id = CARLIST_monarchy_restored
+        x = -2
+        y = 2
+
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = CARLIST_a_new_army
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = CARLIST_revive_cortez
+		}
+
+        relative_position_id = CARLIST_monarchy_restored
+        x = -2
+        y = 3
+
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = CARLIST_spanish_armada_reborn
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = CARLIST_a_new_army
+		}
+
+        relative_position_id = CARLIST_monarchy_restored
+        x = -2
+        y = 4
+
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = CARLIST_and_the_sky
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = CARLIST_spanish_armada_reborn
+		}
+
+        relative_position_id = CARLIST_monarchy_restored
+        x = -2
+        y = 5
+
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = CARLIST_secure_power
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = CARLIST_monarchy_restored
+		 }
+
+		 relative_position_id = CARLIST_monarchy_restored
+		 x = 2
+		 y = 1
+
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = CARLIST_the_vile_liberals
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = CARLIST_secure_power
+		 }
+
+		 relative_position_id = CARLIST_monarchy_restored
+		 x = 2
+        y = 2
+
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = CARLIST_the_milquetoast_conservatives
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = CARLIST_the_vile_liberals
+		 }
+
+		 relative_position_id = CARLIST_monarchy_restored
+		 x = 2
+        y = 3
+
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = CARLIST_the_godless_heathens
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = CARLIST_the_milquetoast_conservatives
+		 }
+
+		 relative_position_id = CARLIST_monarchy_restored
+		 x = 2
+        y = 4
+
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = CARLIST_the_lunatic_heretics
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = CARLIST_the_godless_heathens
+		}
+
+		mutually_exclusive = {
+			focus = CARLIST_the_unholy_alliance
+		}
+
+        relative_position_id = CARLIST_monarchy_restored
+		 x = 2
+        y = 5
+
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = CARLIST_the_unholy_alliance
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = CARLIST_the_godless_heathens
+		}
+
+		mutually_exclusive = {
+			focus = CARLIST_the_lunatic_heretics
+		}
+
+        relative_position_id = CARLIST_monarchy_restored
+		 x = 4
+        y = 5
+
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = CARLIST_nueva_conquest
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = CARLIST_and_the_sky
+		}
+		prerequisite = {
+			focus = CARLIST_the_Scourge_of_god
+		}
+		prerequisite = {
+			focus = CARLIST_the_lunatic_heretics
+			focus = CARLIST_the_unholy_alliance
+		}
+
+        relative_position_id = CARLIST_monarchy_restored
+		 x = 0
+        y = 6
+
+        completion_reward = {
+
+        }
+    }
+}
