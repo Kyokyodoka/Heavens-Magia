@@ -1,0 +1,841 @@
+focus_tree = {
+	id = girls_und_based
+	
+	country = {
+		factor = 0
+		
+	}
+	
+	default = yes
+	reset_on_civilwar = no
+	focus = {
+        id = STE_bane_of_the_steppes
+        icon = GFX
+        cost = 10
+
+        x = 15
+        y = 0
+
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = STE_sternberg_dindu_nuffin
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = STE_bane_of_the_steppes
+		 }
+
+	    relative_position_id = STE_bane_of_the_steppes
+		x = 0
+		y = 1
+
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = STE_abadoned
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = STE_sternberg_dindu_nuffin
+		 }
+
+	    relative_position_id = STE_bane_of_the_steppes
+		x = 0
+		y = 2
+
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = STE_but_not_alone
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = STE_abadoned
+		 }
+
+	    relative_position_id = STE_bane_of_the_steppes
+		x = 0
+		y = 3
+
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = STE_probe_the_roaches
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = STE_but_not_alone
+		}
+
+	    relative_position_id = STE_bane_of_the_steppes
+		x = -2
+		y = 4
+
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = STE_build_up_the_war_machine
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = STE_but_not_alone
+		}
+
+	    relative_position_id = STE_bane_of_the_steppes
+		x = 0
+		y = 4
+
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = STE_invest_in_tech
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = STE_but_not_alone
+		}
+
+	    relative_position_id = STE_bane_of_the_steppes
+		x = 2
+		y = 4
+
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = STE_but_who_should_lead
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = STE_build_up_the_war_machine
+		}
+		prerequisite = {
+			focus = STE_probe_the_roaches
+		}
+		prerequisite = {
+			focus = STE_invest_in_tech
+		}
+
+	    relative_position_id = STE_bane_of_the_steppes
+		x = 0
+		y = 5
+
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = STE_axis
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = STE_but_who_should_lead
+		}
+		mutually_exclusive = {
+			focus = STE_allies
+		}
+		mutually_exclusive = {
+			focus = STE_the_french???
+		}
+
+	    relative_position_id = STE_bane_of_the_steppes
+		x = 3
+		y = 6
+
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = STE_allies
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = STE_but_who_should_lead
+		}
+		mutually_exclusive = {
+			focus = STE_allies
+		}
+		mutually_exclusive = {
+			focus = STE_the_french???
+		}
+
+	    relative_position_id = STE_bane_of_the_steppes
+		x = -3
+		y = 6
+
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = STE_the_french???
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = STE_but_who_should_lead
+		}
+		mutually_exclusive = {
+			focus = STE_allies
+		}
+		mutually_exclusive = {
+			focus = STE_axis
+		}
+
+	    relative_position_id = STE_bane_of_the_steppes
+		x = 0
+		y = 6
+
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = STE_unity?
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = STE_but_who_should_lead
+		}
+
+	    relative_position_id = STE_the_french???
+		x = 0
+		y = 1
+
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = STE_ooarai
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = STE_unity?
+		}
+		mutually_exclusive = {
+			focus = STE_actually_the_french
+		}
+
+	    relative_position_id = STE_the_french???
+		x = 1
+		y = 2
+
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = STE_together_for_victory
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = STE_ooarai
+		}
+
+	    relative_position_id = STE_the_french???
+		x = 1
+		y = 3
+
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = STE_erwins_really_good_ideas
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = STE_together_for_victory
+		}
+
+	    relative_position_id = STE_the_french???
+		x = 1
+		y = 4
+
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = STE_actually_the_french
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = STE_unity?
+		}
+		mutually_exclusive = {
+			focus = STE_ooarai
+		}
+
+	    relative_position_id = STE_the_french???
+		x = -1
+		y = 2
+
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = STE_teeth_gritted_team_work
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = STE_actually_the_french
+		}
+
+	    relative_position_id = STE_the_french???
+		x = -1
+		y = 3
+
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = STE_viva_la_france
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = STE_teeth_gritted_team_work
+		}
+
+	    relative_position_id = STE_the_french???
+		x = -1
+		y = 4
+
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = STE_kuromine
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = STE_axis
+		}
+		mutually_exclusive = {
+			focus = STE_anzio
+		}
+		mutually_exclusive = {
+			focus = STE_Chi-Ha-Tan
+		}
+
+	    relative_position_id = STE_axis
+		x = 0
+		y = 1
+
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = STE_making_rommel_proud
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = STE_kuromine
+		}
+
+	    relative_position_id = STE_kuromine
+		x = 0
+		y = 1
+
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = STE_a_new_heer
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = STE_making_rommel_proud
+		}
+
+	    relative_position_id = STE_kuromine
+		x = 0
+		y = 2
+
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = STE_blitzkrieg
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = STE_a_new_heer
+		}
+
+	    relative_position_id = STE_kuromine
+		x = 0
+		y = 3
+
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = STE_anzio
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = STE_axis
+		}
+		mutually_exclusive = {
+			focus = STE_kuromine
+		}
+		mutually_exclusive = {
+			focus = STE_Chi-Ha-Tan
+		}
+
+	    relative_position_id = STE_axis
+		x = 2
+		y = 1
+
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = STE_paaaaaaasta
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = STE_anzio
+		}
+	    relative_position_id = STE_anzio
+		x = 0
+		y = 1
+
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = STE_weapons_of_rome
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = STE_anzio
+		}
+	    relative_position_id = STE_anzio
+		x = 0
+		y = 2
+
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = STE_duce_duce_duce_duce
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = STE_anzio
+		}
+	    relative_position_id = STE_anzio
+		x = 0
+		y = 3
+
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = STE_Chi-Ha-Tan
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = STE_axis
+		}
+		mutually_exclusive = {
+			focus = STE_kuromine
+		}
+		mutually_exclusive = {
+			focus = STE_anzio
+		}
+
+	    relative_position_id = STE_axis
+		x = 4
+		y = 1
+
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = STE_samurai_code
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = STE_Chi-Ha-Tan
+		}
+
+	    relative_position_id = STE_Chi-Ha-Tan
+		x = 0
+		y = 1
+
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = STE_in_the_spirit_of_showa
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = STE_samurai_code
+		}
+
+	    relative_position_id = STE_Chi-Ha-Tan
+		x = 0
+		y = 2
+
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = STE_banzai
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = STE_in_the_spirit_of_showa
+		}
+
+	    relative_position_id = STE_Chi-Ha-Tan
+		x = 0
+		y = 3
+
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = STE_saunders
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = STE_allies
+		}
+		mutually_exclusive = {
+			focus = STE_gloria
+		}
+		mutually_exclusive = {
+			focus = STE_pravada
+		}
+
+	    relative_position_id = STE_allies
+		x = -4
+		y = 1
+
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = STE_america_fuck_yeah
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = STE_saunders
+		}
+
+	    relative_position_id = STE_saunders
+		x = 0
+		y = 1
+
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = STE_listen_to_patton
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = STE_america_fuck_yeah
+		}
+
+	    relative_position_id = STE_saunders
+		x = 0
+		y = 2
+
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = STE_heard_you_need_freedom
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = STE_listen_to_patton
+		}
+
+	    relative_position_id = STE_saunders
+		x = 0
+		y = 3
+
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = STE_gloria
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = STE_allies
+		}
+		mutually_exclusive = {
+			focus = STE_saunders
+		}
+		mutually_exclusive = {
+			focus = STE_pravada
+		}
+
+	    relative_position_id = STE_allies
+		x = -2
+		y = 1
+
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = STE_the_iron_lady
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = STE_gloria
+		}
+
+	    relative_position_id = STE_gloria
+		x = 0
+		y = 1
+
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = STE_the_grenaiders_restored
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = STE_the_iron_lady
+		}
+
+	    relative_position_id = STE_gloria
+		x = 0
+		y = 2
+
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = STE_the_lion_roars_again
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = STE_the_grenaiders_restored
+		}
+
+	    relative_position_id = STE_gloria
+		x = 0
+		y = 3
+
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = STE_pravada
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = STE_allies
+		}
+		mutually_exclusive = {
+			focus = STE_saunders
+		}
+		mutually_exclusive = {
+			focus = STE_gloria
+		}
+
+	    relative_position_id = STE_allies
+		x = 0
+		y = 1
+
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = STE_secure_enough_food
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = STE_pravada
+		}
+
+	    relative_position_id = STE_pravada
+		x = 0
+		y = 1
+
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = STE_red_army
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = STE_secure_enough_food
+		}
+
+	    relative_position_id = STE_pravada
+		x = 0
+		y = 2
+
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = STE_eternal_revolution
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = STE_red_army
+		}
+
+	    relative_position_id = STE_pravada
+		x = 0
+		y = 3
+
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = STE_one_thing_we_can_agree_on
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = STE_heard_you_need_freedom
+			focus = STE_the_lion_roars_again
+			focus = STE_eternal_revolution
+			focus = STE_viva_la_france
+			focus = STE_erwins_really_good_ideas
+			focus = STE_blitzkrieg
+			focus = STE_duce_duce_duce_duce
+			focus = STE_banzai
+		}
+
+	    relative_position_id = STE_bane_of_the_steppes
+		x = 0
+		y = 11
+
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = STE_securing_our_base
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = STE_one_thing_we_can_agree_on
+		}
+
+	    relative_position_id = STE_one_thing_we_can_agree_on
+		x = 0
+		y = 1
+
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = STE_securing_the_south
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = STE_securing_our_base
+		}
+
+	    relative_position_id = STE_one_thing_we_can_agree_on
+		x = 0
+		y = 2
+
+        completion_reward = {
+
+        }
+    }
+}

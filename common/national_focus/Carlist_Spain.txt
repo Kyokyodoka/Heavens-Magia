@@ -13,7 +13,7 @@ focus_tree = {
         icon = GFX
         cost = 10
 
-        x = 6
+        x = 14
         y = 0
 
         completion_reward = {
@@ -30,7 +30,7 @@ focus_tree = {
 		 }
 
 	    relative_position_id = CARLIST_monarchy_restored
-		x = 0
+		x = -5
 		y = 1
 
         completion_reward = {
@@ -47,7 +47,7 @@ focus_tree = {
 		 }
 
 		 relative_position_id = CARLIST_monarchy_restored
-		 x = 0
+		 x = -5
 		 y = 2
 
         completion_reward = {
@@ -64,7 +64,7 @@ focus_tree = {
 		 }
 
 		 relative_position_id = CARLIST_monarchy_restored
-		 x = 0
+		 x = -5
 		 y = 3
 
         completion_reward = {
@@ -81,7 +81,7 @@ focus_tree = {
 		 }
 
 		 relative_position_id = CARLIST_monarchy_restored
-		 x = 0
+		 x = -5
 		 y = 4
 
         completion_reward = {
@@ -98,7 +98,7 @@ focus_tree = {
 		}
 
 		relative_position_id = CARLIST_monarchy_restored
-		x = 0
+		x = -5
 		y = 5
 
         completion_reward = {
@@ -115,7 +115,7 @@ focus_tree = {
 			focus = CARLIST_monarchy_restored
 		 }
 
-        x = -2
+        x = -7
         y = 1
 
         completion_reward = {
@@ -131,7 +131,7 @@ focus_tree = {
 			focus = CARLIST_remake_conquistadors
 		 }
 		relative_position_id = CARLIST_monarchy_restored
-        x = -2
+        x = -7
         y = 2
 
         completion_reward = {
@@ -148,7 +148,7 @@ focus_tree = {
 		}
 
         relative_position_id = CARLIST_monarchy_restored
-        x = -2
+        x = -7
         y = 3
 
         completion_reward = {
@@ -165,7 +165,7 @@ focus_tree = {
 		}
 
         relative_position_id = CARLIST_monarchy_restored
-        x = -2
+        x = -7
         y = 4
 
         completion_reward = {
@@ -182,7 +182,7 @@ focus_tree = {
 		}
 
         relative_position_id = CARLIST_monarchy_restored
-        x = -2
+        x = -7
         y = 5
 
         completion_reward = {
@@ -199,7 +199,7 @@ focus_tree = {
 		 }
 
 		 relative_position_id = CARLIST_monarchy_restored
-		 x = 2
+		 x = -3
 		 y = 1
 
         completion_reward = {
@@ -216,7 +216,7 @@ focus_tree = {
 		 }
 
 		 relative_position_id = CARLIST_monarchy_restored
-		 x = 2
+		 x = -3
         y = 2
 
         completion_reward = {
@@ -233,7 +233,7 @@ focus_tree = {
 		 }
 
 		 relative_position_id = CARLIST_monarchy_restored
-		 x = 2
+		 x = -3
         y = 3
 
         completion_reward = {
@@ -250,7 +250,7 @@ focus_tree = {
 		 }
 
 		 relative_position_id = CARLIST_monarchy_restored
-		 x = 2
+		 x = -3
         y = 4
 
         completion_reward = {
@@ -271,7 +271,7 @@ focus_tree = {
 		}
 
         relative_position_id = CARLIST_monarchy_restored
-		 x = 2
+        x = -3
         y = 5
 
         completion_reward = {
@@ -292,7 +292,7 @@ focus_tree = {
 		}
 
         relative_position_id = CARLIST_monarchy_restored
-		 x = 4
+        x = -1
         y = 5
 
         completion_reward = {
@@ -310,14 +310,641 @@ focus_tree = {
 		prerequisite = {
 			focus = CARLIST_the_Scourge_of_god
 		}
+        prerequisite = {
+			focus = CARLIST_explain_why_syndicalism_is_cringe_and_gay
+		}
 		prerequisite = {
 			focus = CARLIST_the_lunatic_heretics
 			focus = CARLIST_the_unholy_alliance
 		}
 
         relative_position_id = CARLIST_monarchy_restored
-		 x = 0
+		x = 1
         y = 6
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = CARLIST_recovering_after_a_century
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = CARLIST_monarchy_restored
+		 }
+
+		 relative_position_id = CARLIST_monarchy_restored
+		 x = 4
+		 y = 1
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = CARLIST_rejuveinate_catalonia
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = CARLIST_recovering_after_a_century
+		 }
+
+		 relative_position_id = CARLIST_monarchy_restored
+		 x = 4
+		 y = 2
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = CARLIST_our_highways
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = CARLIST_rejuveinate_catalonia
+		 }
+
+		 relative_position_id = CARLIST_monarchy_restored
+		 x = 4
+		 y = 3
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = CARLIST_the_capital
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = CARLIST_our_highways
+		 }
+
+		 relative_position_id = CARLIST_monarchy_restored
+		 x = 4
+		 y = 4
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = CARLIST_mining_operations
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = CARLIST_recovering_after_a_century
+		 }
+
+		 relative_position_id = CARLIST_monarchy_restored
+		 x = 2
+		 y = 2
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = CARLIST_resource1
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = CARLIST_mining_operations
+		 }
+
+		 relative_position_id = CARLIST_monarchy_restored
+		 x = 2
+		 y = 3
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = CARLIST_resource2
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = CARLIST_resource1
+		 }
+
+		 relative_position_id = CARLIST_monarchy_restored
+		 x = 2
+		 y = 4
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = CARLIST_the_tools_of_conquest
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = CARLIST_recovering_after_a_century
+		 }
+
+		 relative_position_id = CARLIST_monarchy_restored
+		 x = 6
+		 y = 2
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = CARLIST_portugal_never_existed
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = CARLIST_the_tools_of_conquest
+		 }
+
+		 relative_position_id = CARLIST_monarchy_restored
+		 x = 6
+		 y = 3
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = CARLIST_but_their_factories_do
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = CARLIST_portugal_never_existed
+		 }
+
+		 relative_position_id = CARLIST_monarchy_restored
+		 x = 6
+		 y = 4
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = CARLIST_explain_why_syndicalism_is_cringe_and_gay
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = CARLIST_but_their_factories_do
+		}
+        prerequisite = {
+			focus = CARLIST_the_capital
+		}
+        prerequisite = {
+			focus = CARLIST_resource2
+		}
+
+		 relative_position_id = CARLIST_monarchy_restored
+		 x = 4
+		 y = 5
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = CARLIST_covadonga
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = CARLIST_nueva_conquest
+		}
+
+        relative_position_id = CARLIST_nueva_conquest
+	    x = 0
+        y = 1
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = CARLIST_probe_the_waters
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = CARLIST_covadonga
+		}
+
+        relative_position_id = CARLIST_nueva_conquest
+	    x = -1
+        y = 2
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = CARLIST_prep_dessert_gear
+        icon = GFX
+        cost = 10
+        
+        prerequisite = {
+			focus = CARLIST_covadonga
+		}
+
+        relative_position_id = CARLIST_nueva_conquest
+	    x = 1
+        y = 2
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = CARLIST_the_first_of_many
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = CARLIST_prep_dessert_gear
+		}
+        prerequisite = {
+			focus = CARLIST_probe_the_waters
+		}
+
+        relative_position_id = CARLIST_nueva_conquest
+	    x = 0
+        y = 3
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = CARLIST_preparing_for_the_great_crusade
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = CARLIST_the_first_of_many
+		}
+
+        relative_position_id = CARLIST_nueva_conquest
+	    x = 0
+        y = 4
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = CARLIST_more_guns
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = CARLIST_preparing_for_the_great_crusade
+		}
+
+        relative_position_id = CARLIST_nueva_conquest
+	    x = 0
+        y = 5
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = CARLIST_the_navy_restored
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = CARLIST_preparing_for_the_great_crusade
+		}
+
+        relative_position_id = CARLIST_nueva_conquest
+	    x = -2
+        y = 5
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = CARLIST_rule_over_gods_domain
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = CARLIST_preparing_for_the_great_crusade
+		}
+
+        relative_position_id = CARLIST_nueva_conquest
+	    x = 2
+        y = 5
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = CARLIST_the_godless_franks
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = CARLIST_more_guns
+		}
+        prerequisite = {
+			focus = CARLIST_the_navy_restored
+		}
+        prerequisite = {
+			focus = CARLIST_rule_over_gods_domain
+		}
+
+        relative_position_id = CARLIST_nueva_conquest
+	    x = 0
+        y = 6
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = CARLIST_build_the_wall
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = CARLIST_the_godless_franks
+		}
+
+        relative_position_id = CARLIST_nueva_conquest
+	    x = 0
+        y = 7
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = CARLIST_guns_for_god
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = CARLIST_build_the_wall
+		}
+
+        relative_position_id = CARLIST_nueva_conquest
+	    x = 0
+        y = 8
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = CARLIST_wise_gods_of_francis_e_dec
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = CARLIST_build_the_wall
+		}
+
+        relative_position_id = CARLIST_nueva_conquest
+	    x = 0
+        y = 9
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = CARLIST_the_death_of_the_gangster_communist_computer_god
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = CARLIST_wise_gods_of_francis_e_dec
+		}
+
+        relative_position_id = CARLIST_nueva_conquest
+	    x = 0
+        y = 10
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = CARLIST_fix_italys_mental_issues
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = CARLIST_more_guns
+		}
+        prerequisite = {
+			focus = CARLIST_the_navy_restored
+		}
+        prerequisite = {
+			focus = CARLIST_rule_over_gods_domain
+		}
+
+        relative_position_id = CARLIST_nueva_conquest
+	    x = 2
+        y = 6
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = CARLIST_invasion_of_sicily
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = CARLIST_fix_italys_mental_issues
+		}
+
+        relative_position_id = CARLIST_nueva_conquest
+	    x = 2
+        y = 7
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = CARLIST_landing_in_rome
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = CARLIST_invasion_of_sicily
+		}
+
+        relative_position_id = CARLIST_nueva_conquest
+	    x = 2
+        y = 8
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = CARLIST_push_against_the_sphagets
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = CARLIST_landing_in_rome
+		}
+
+        relative_position_id = CARLIST_nueva_conquest
+	    x = 2
+        y = 9
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = CARLIST_holy_see_liberated
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = CARLIST_push_against_the_sphagets
+		}
+
+        relative_position_id = CARLIST_nueva_conquest
+	    x = 2
+        y = 10
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = CARLIST_our_rightful_lands
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = CARLIST_more_guns
+		}
+        prerequisite = {
+			focus = CARLIST_the_navy_restored
+		}
+        prerequisite = {
+			focus = CARLIST_rule_over_gods_domain
+		}
+
+        relative_position_id = CARLIST_nueva_conquest
+	    x = -2
+        y = 6
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = CARLIST_saint_michaels_heel
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = CARLIST_our_rightful_lands
+		}
+        relative_position_id = CARLIST_nueva_conquest
+	    x = -2
+        y = 7
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = CARLIST_the_den_of_drug_lords
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = CARLIST_saint_michaels_heel
+		}
+        relative_position_id = CARLIST_nueva_conquest
+	    x = -2
+        y = 8
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = CARLIST_huehuehue
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = CARLIST_the_den_of_drug_lords
+		}
+        relative_position_id = CARLIST_nueva_conquest
+	    x = -2
+        y = 9
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = CARLIST_stop_rape_chad
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = CARLIST_huehuehue
+		}
+        relative_position_id = CARLIST_nueva_conquest
+	    x = -2
+        y = 10
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = CARLIST_empress_augustina
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = CARLIST_the_death_of_the_gangster_communist_computer_god
+		}
+        prerequisite = {
+			focus = CARLIST_stop_rape_chad
+		}
+        prerequisite = {
+			focus = CARLIST_holy_see_liberated
+		}
+
+        relative_position_id = CARLIST_nueva_conquest
+	    x = 0
+        y = 11
 
         completion_reward = {
 

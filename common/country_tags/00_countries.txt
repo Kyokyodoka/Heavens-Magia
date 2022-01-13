@@ -162,7 +162,7 @@ GHA = "countries/Ghana.txt"
 IVO = "countries/Ivory Coast.txt"
 VOL = "countries/Upper Volta.txt"
 MLI = "countries/Mali.txt"
-SIE = "countries/Sierra Leone.txt"
+#SIE = "countries/Sierra Leone.txt"
 GNA = "countries/Guinea.txt"
 GNB = "countries/Guinea-Bissau.txt"
 SEN = "countries/Senegal.txt"
@@ -244,6 +244,7 @@ MEL = "countries/Mariel.txt"
 GRA = "countries/Graveguard.txt"
 #Europe
 IBR = "countries/Iberia.txt"
+SIE = "countries/Siebenbürgen.txt"
 
 #Asia
 NEU = "countries/Neusantara.txt"
