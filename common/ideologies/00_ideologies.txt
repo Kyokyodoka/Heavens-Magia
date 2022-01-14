@@ -72,8 +72,6 @@ ideologies = {
 			Continuism = {
 			}
 			AzurNavalArcology = {
-			} 
-			ShanshaDoState = {
 			}
 			Revanchistleft = {
 			}
@@ -206,6 +204,8 @@ ideologies = {
 			Ultrathiest = {
 			}
 			MagiaCult = {
+			}
+			ShanshaDoState = {
 			}
 			BasedMonarchy = {
 			}

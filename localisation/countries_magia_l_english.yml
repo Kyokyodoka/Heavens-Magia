@@ -1,0 +1,16 @@
+﻿l_english:
+GRA:0 "Graveguarden"
+GRA_DEF:0 "the Graveguarden"
+GRA_ADJ:0 "Graveguardian"
+
+IBR:0 "Iberia"
+IBR_DEF:0 "Iberia"
+IBR_ADJ:0 "Iberian"
+
+FOR:0 "Formosa"
+FOR_DEF:0 "Formosa"
+FOR_ADJ:0 "Formosan"
+
+FOR_HOM: "État Monastique Homura Formosa"
+FOR_HOM_DEF: "État Monastique Homura Formosa"
+FOR_HOM_ADJ: "Homuran"

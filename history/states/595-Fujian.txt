@@ -5,7 +5,8 @@ state= {
 	state_category = city
 	history=
 	{
-		owner = CHI
+		owner = FOR
+		add_core_of = FOR
 		add_core_of = CHI
 		add_core_of = PRC
 		buildings = {

@@ -1,0 +1,12 @@
+01 - Fascism
+02 - Nationalism
+03 - Monarchism
+04 - populism
+05 - conservatism
+06 - Libertarianism
+07 - Liberal
+08 - Social Democrat
+09 - Progressive
+10 - Socialist
+11 - Communist
+12 - Islamist

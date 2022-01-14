@@ -1,0 +1,443 @@
+focus_tree = {
+	id = gamer_iran
+	
+	country = {
+		factor = 0
+		
+	}
+	
+	default = yes
+	reset_on_civilwar = no
+	focus = {
+        id = PER_Gamer_jackboots
+        icon = GFX
+        cost = 10
+
+        x = 12
+        y = 0
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = PER_announce_it_on_twitter
+        icon = GFX
+        cost = 10
+        prerequisite = {
+            focus = PER_Gamer_jackboots
+        }
+        relative_position_id = PER_Gamer_jackboots
+        x = 0
+        y = 1
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = PER_we_will_stand_the_storm
+        icon = GFX
+        cost = 10
+        prerequisite = {
+            focus = PER_announce_it_on_twitter
+        }
+        relative_position_id = PER_Gamer_jackboots
+        x = 0
+        y = 2
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = PER_for_the_people
+        icon = GFX
+        cost = 10
+        prerequisite = {
+            focus = PER_announce_it_PER_we_will_stand_the_stormon_twitter
+        }
+        relative_position_id = PER_Gamer_jackboots
+        x = 0
+        y = 3
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = PER_of_the_people
+        icon = GFX
+        cost = 10
+        prerequisite = {
+            focus = PER_for_the_people
+        }
+        relative_position_id = PER_Gamer_jackboots
+        x = 0
+        y = 4
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = PER_by_the_people
+        icon = GFX
+        cost = 10
+        prerequisite = {
+            focus = PER_announce_it_on_twitter
+        }
+        relative_position_id = PER_Gamer_jackboots
+        x = 0
+        y = 5
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = PER_but_the_people_are_retarded
+        icon = GFX
+        cost = 10
+        prerequisite = {
+            focus = PER_by_the_people
+        }
+        relative_position_id = PER_Gamer_jackboots
+        x = 0
+        y = 6
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = PER_a_new_ruling_class
+        icon = GFX
+        cost = 10
+        prerequisite = {
+            focus = PER_but_the_people_are_retarded
+        }
+        relative_position_id = PER_Gamer_jackboots
+        x = 2
+        y = 7
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = PER_study_magic
+        icon = GFX
+        cost = 10
+        prerequisite = {
+            focus = PER_a_new_ruling_class
+        }
+        relative_position_id = PER_Gamer_jackboots
+        x = 2
+        y = 8
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = PER_reach_out_to_the_east
+        icon = GFX
+        cost = 10
+        prerequisite = {
+            focus = PER_study_magic
+        }
+        relative_position_id = PER_Gamer_jackboots
+        x = 2
+        y = 9
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = PER_homura_the_gamer
+        icon = GFX
+        cost = 10
+        prerequisite = {
+            focus = PER_reach_out_to_the_east
+        }
+        relative_position_id = PER_Gamer_jackboots
+        x = 2
+        y = 10
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = PER_thats_a_lot_of_damage
+        icon = GFX
+        cost = 10
+        prerequisite = {
+            focus = PER_but_the_people_are_retarded
+        }
+        relative_position_id = PER_Gamer_jackboots
+        x = 0
+        y = 7
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = PER_patch_it_up
+        icon = GFX
+        cost = 10
+        prerequisite = {
+            focus = PER_thats_a_lot_of_damage
+        }
+        relative_position_id = PER_Gamer_jackboots
+        x = 0
+        y = 8
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = PER_the_glories_of_flextape
+        icon = GFX
+        cost = 10
+        prerequisite = {
+            focus = PER_patch_it_up
+        }
+        relative_position_id = PER_Gamer_jackboots
+        x = 0
+        y = 9
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = PER_gamer_fuel
+        icon = GFX
+        cost = 10
+        prerequisite = {
+            focus = PER_the_glories_of_flextape
+        }
+        relative_position_id = PER_Gamer_jackboots
+        x = 0
+        y = 10
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = PER_gamer_boots
+        icon = GFX
+        cost = 10
+        prerequisite = {
+            focus = PER_but_the_people_are_retarded
+        }
+        relative_position_id = PER_Gamer_jackboots
+        x = -2
+        y = 7
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = PER_amy_reform
+        icon = GFX
+        cost = 10
+        prerequisite = {
+            focus = PER_gamer_boots
+        }
+        relative_position_id = PER_Gamer_jackboots
+        x = -2
+        y = 8
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = PER_glory_to_the_gamers
+        icon = GFX
+        cost = 10
+        prerequisite = {
+            focus = PER_amy_reform
+        }
+        relative_position_id = PER_Gamer_jackboots
+        x = -2
+        y = 9
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = PER_purge_the_disloyal
+        icon = GFX
+        cost = 10
+        prerequisite = {
+            focus = PER_glory_to_the_gamers
+        }
+        relative_position_id = PER_Gamer_jackboots
+        x = -2
+        y = 10
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = PER_the_aryan_republic
+        icon = GFX
+        cost = 10
+        prerequisite = {
+            focus = PER_purge_the_disloyal
+        }
+        prerequisite = {
+            focus = PER_gamer_fuel
+        }
+        prerequisite = {
+            focus = PER_homura_the_gamer
+        }
+        relative_position_id = PER_Gamer_jackboots
+        x = -2
+        y = 11
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = PER_unite_all_peoples_within_our_nation
+        icon = GFX
+        cost = 10
+        prerequisite = {
+            focus = PER_the_aryan_republic
+        }
+        relative_position_id = PER_Gamer_jackboots
+        x = -2
+        y = 12
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = PER_extend_our_reach_to_the_stars_above
+        icon = GFX
+        cost = 10
+        prerequisite = {
+            focus = PER_unite_all_peoples_within_our_nation
+        }
+        relative_position_id = PER_Gamer_jackboots
+        x = -2
+        y = 13
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = PER_scourge_of_rome
+        icon = GFX
+        cost = 10
+        prerequisite = {
+            focus = PER_purge_the_disloyal
+        }
+        prerequisite = {
+            focus = PER_gamer_fuel
+        }
+        prerequisite = {
+            focus = PER_homura_the_gamer
+        }
+        relative_position_id = PER_Gamer_jackboots
+        x = 2
+        y = 11
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = PER_our_rightful_lands
+        icon = GFX
+        cost = 10
+        prerequisite = {
+            focus = PER_scourge_of_rome
+        }
+        relative_position_id = PER_Gamer_jackboots
+        x = 2
+        y = 12
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = PER_the_shitty_neighbor
+        icon = GFX
+        cost = 10
+        prerequisite = {
+            focus = PER_our_rightful_lands
+        }
+        relative_position_id = PER_Gamer_jackboots
+        x = 2
+        y = 13
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = PER_ally_with_the_ai
+        icon = GFX
+        cost = 10
+        prerequisite = {
+            focus = PER_extend_our_reach_to_the_stars_above
+        }
+        prerequisite = {
+            focus = PER_the_shitty_neighbor
+        }
+        relative_position_id = PER_Gamer_jackboots
+        x = 0
+        y = 14
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = PER_our_rightful_domain
+        icon = GFX
+        cost = 10
+        prerequisite = {
+            focus = PER_ally_with_the_ai
+        }
+        relative_position_id = PER_Gamer_jackboots
+        x = 0
+        y = 15
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = PER_the_black_gold_flows
+        icon = GFX
+        cost = 10
+        prerequisite = {
+            focus = PER_our_rightful_domain
+        }
+        relative_position_id = PER_Gamer_jackboots
+        x = 0
+        y = 16
+
+        completion_reward = {
+
+        }
+    }
+}
