@@ -838,4 +838,332 @@ focus_tree = {
 
         }
     }
+	focus = {
+        id = STE_china_must_die
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = STE_viva_la_france
+			focus = STE_erwins_really_good_ideas
+			focus = STE_blitzkrieg
+			focus = STE_duce_duce_duce_duce
+			focus = STE_banzai
+		}
+		prerequisite = {
+			focus = STE_securing_the_south
+		}
+
+	    relative_position_id = STE_one_thing_we_can_agree_on
+		x = 2
+		y = 3
+
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = STE_fu_manchu
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = STE_china_must_die
+		}
+
+	    relative_position_id = STE_one_thing_we_can_agree_on
+		x = 5
+		y = 4
+
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = STE_korea_was_a_mistake
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = STE_china_must_die
+		}
+
+	    relative_position_id = STE_one_thing_we_can_agree_on
+		x = 3
+		y = 4
+
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = STE_end_japanese_anarchy
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = STE_fu_manchu
+		}
+		prerequisite = {
+			focus = STE_korea_was_a_mistake
+		}
+		prerequisite = {
+			focus = STE_blitzkrieg
+			focus = STE_duce_duce_duce_duce
+			focus = STE_banzai
+		}
+
+	    relative_position_id = STE_one_thing_we_can_agree_on
+		x = 6
+		y = 5
+
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = STE_re_take_flips
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = STE_end_japanese_anarchy
+		}
+
+	    relative_position_id = STE_one_thing_we_can_agree_on
+		x = 6
+		y = 6
+
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = STE_eat_turkestan
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = STE_viva_la_france
+			focus = STE_erwins_really_good_ideas
+			focus = STE_heard_you_need_freedom
+			focus = STE_the_lion_roars_again
+			focus = STE_eternal_revolution
+		}
+		prerequisite = {
+			focus = STE_securing_the_south
+		}
+
+	    relative_position_id = STE_one_thing_we_can_agree_on
+		x = -2
+		y = 3
+
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = STE_you_nam_bitches
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = STE_viva_la_france
+		}
+		prerequisite = {
+			focus = STE_securing_the_south
+		}
+		prerequisite = {
+			focus = STE_eat_turkestan
+		}
+
+	    relative_position_id = STE_one_thing_we_can_agree_on
+		x = -1
+		y = 4
+
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = STE_death_to_the_lady_boys
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = STE_you_nam_bitches
+		}
+
+	    relative_position_id = STE_one_thing_we_can_agree_on
+		x = 0
+		y = 5
+
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = STE_mmmmmm_monke
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = STE_you_nam_bitches
+		}
+
+	    relative_position_id = STE_one_thing_we_can_agree_on
+		x = -2
+		y = 5
+
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = STE_new_france
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = STE_death_to_the_lady_boys
+		}
+		prerequisite = {
+			focus = STE_mmmmmm_monke
+		}
+
+	    relative_position_id = STE_one_thing_we_can_agree_on
+		x = -1
+		y = 6
+
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = STE_reach_out_to_aryan_jafari
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = STE_viva_la_france
+		}
+
+	    relative_position_id = STE_one_thing_we_can_agree_on
+		x = 1
+		y = 4
+
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = STE_finish_the_pakis
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = STE_reach_out_to_aryan_jafari
+		}
+
+	    relative_position_id = STE_one_thing_we_can_agree_on
+		x = 2
+		y = 5
+
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = STE_world_war_poo
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = STE_finish_the_pakis
+		}
+
+	    relative_position_id = STE_one_thing_we_can_agree_on
+		x = 2
+		y = 6
+
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = STE_test_these_magical_Girls
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = STE_eat_turkestan
+		}
+
+	    relative_position_id = STE_one_thing_we_can_agree_on
+		x = -3
+		y = 4
+
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = STE_make_the_16_one
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = STE_eat_turkestan
+		}
+
+	    relative_position_id = STE_one_thing_we_can_agree_on
+		x = -5
+		y = 4
+
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = STE_push_into_siberia
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = STE_make_the_16_one
+		}
+		prerequisite = {
+			focus = STE_test_these_magical_Girls
+		}
+		prerequisite = {
+			focus = STE_heard_you_need_freedom
+			focus = STE_the_lion_roars_again
+			focus = STE_eternal_revolution
+		}
+
+	    relative_position_id = STE_one_thing_we_can_agree_on
+		x = -6
+		y = 5
+
+        completion_reward = {
+
+        }
+    }
+	focus = {
+        id = STE_true_rulers_of_third_rome
+        icon = GFX
+        cost = 10
+
+		prerequisite = {
+			focus = STE_push_into_siberia
+		}
+
+	    relative_position_id = STE_one_thing_we_can_agree_on
+		x = -6
+		y = 6
+
+        completion_reward = {
+
+        }
+    }
 }

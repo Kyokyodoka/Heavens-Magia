@@ -1,0 +1,673 @@
+focus_tree = {
+	id = hameru
+	
+	country = {
+		factor = 0
+		
+	}
+	
+	default = yes
+	reset_on_civilwar = no
+	focus = {
+        id = FOR_go_to_mcdolans
+        icon = GFX
+        cost = 10
+
+        x = 10
+        y = 0
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = FOR_glorious_victoy
+        icon = GFX
+        cost = 10
+
+        x = 0
+        y = 1
+        relative_position_id = FOR_go_to_mcdolans
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = FOR_the_horrid_truth
+        icon = GFX
+        cost = 10
+
+        x = 0
+        y = 2
+        relative_position_id = FOR_go_to_mcdolans
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = FOR_finding_reason_in_madness
+        icon = GFX
+        cost = 10
+
+        x = 0
+        y = 3
+        relative_position_id = FOR_go_to_mcdolans
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = FOR_only_sane_in_a_mad_world
+        icon = GFX
+        cost = 10
+
+        x = 0
+        y = 4
+        relative_position_id = FOR_go_to_mcdolans
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = FOR_what_to_do_with_chinese
+        icon = GFX
+        cost = 10
+
+        x = 0
+        y = 5
+        relative_position_id = FOR_go_to_mcdolans
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = FOR_cooperation
+        icon = GFX
+        cost = 10
+
+        x = -2
+        y = 6
+        relative_position_id = FOR_go_to_mcdolans
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = FOR_enslavement
+        icon = GFX
+        cost = 10
+
+        x = 0
+        y = 6
+        relative_position_id = FOR_go_to_mcdolans
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = FOR_extinction
+        icon = GFX
+        cost = 10
+
+        x = 2
+        y = 6
+        relative_position_id = FOR_go_to_mcdolans
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = FOR_there_is_much_to_be_done
+        icon = GFX
+        cost = 10
+
+        x = 0
+        y = 7
+        relative_position_id = FOR_go_to_mcdolans
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = FOR_Gotterdammerung
+        icon = GFX
+        cost = 10
+
+        x = 0
+        y = 8
+        relative_position_id = FOR_go_to_mcdolans
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = FOR_Pepare_at_home
+        icon = GFX
+        cost = 10
+
+        x = 0
+        y = 9
+        relative_position_id = FOR_go_to_mcdolans
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = FOR_a_fortress
+        icon = GFX
+        cost = 10
+
+        x = -2
+        y = 10
+        relative_position_id = FOR_go_to_mcdolans
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = FOR_well_shoot_them_down
+        icon = GFX
+        cost = 10
+
+        x = -2
+        y = 11
+        relative_position_id = FOR_go_to_mcdolans
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = FOR_always_aware
+        icon = GFX
+        cost = 10
+
+        x = -2
+        y = 12
+        relative_position_id = FOR_go_to_mcdolans
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = FOR_a_military_like_none_other
+        icon = GFX
+        cost = 10
+
+        x = 2
+        y = 10
+        relative_position_id = FOR_go_to_mcdolans
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = FOR_a_gun_in_every_hand
+        icon = GFX
+        cost = 10
+
+        x = 2
+        y = 11
+        relative_position_id = FOR_go_to_mcdolans
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = FOR_never_to_young_to_serve
+        icon = GFX
+        cost = 10
+
+        x = 2
+        y = 12
+        relative_position_id = FOR_go_to_mcdolans
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = FOR_make_our_move
+        icon = GFX
+        cost = 10
+
+        x = 0
+        y = 13
+        relative_position_id = FOR_go_to_mcdolans
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = FOR_global_plan_red
+        icon = GFX
+        cost = 10
+
+        x = 0
+        y = 14
+        relative_position_id = FOR_go_to_mcdolans
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = FOR_tragic_but_needed
+        icon = GFX
+        cost = 10
+
+        x = -1
+        y = 1
+        relative_position_id = FOR_global_plan_red
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = FOR_easily_exploitable
+        icon = GFX
+        cost = 10
+
+        x = 1
+        y = 1
+        relative_position_id = FOR_global_plan_red
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = FOR_infect_the_court
+        icon = GFX
+        cost = 10
+
+        x = 0
+        y = 2
+        relative_position_id = FOR_global_plan_red
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = FOR_norf
+        icon = GFX
+        cost = 10
+
+        x = 0
+        y = 3
+        relative_position_id = FOR_global_plan_red
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = FOR_walking_into_hiberia
+        icon = GFX
+        cost = 10
+
+        x = -2
+        y = 4
+        relative_position_id = FOR_global_plan_red
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = FOR_a_trip_to_scotland
+        icon = GFX
+        cost = 10
+
+        x = -2
+        y = 5
+        relative_position_id = FOR_global_plan_red
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = FOR_scouts_in_welsh
+        icon = GFX
+        cost = 10
+
+        x = -2
+        y = 6
+        relative_position_id = FOR_global_plan_red
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = FOR_come_on_england
+        icon = GFX
+        cost = 10
+
+        x = 2
+        y = 4
+        relative_position_id = FOR_global_plan_red
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = FOR_score_some_fucking_goals
+        icon = GFX
+        cost = 10
+
+        x = 2
+        y = 5
+        relative_position_id = FOR_global_plan_red
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = FOR_vacation_in_london
+        icon = GFX
+        cost = 10
+
+        x = 2
+        y = 6
+        relative_position_id = FOR_global_plan_red
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = FOR_kick_up_chaos
+        icon = GFX
+        cost = 10
+
+        x = 0
+        y = 7
+        relative_position_id = FOR_global_plan_red
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = FOR_save_the_day_sorta
+        icon = GFX
+        cost = 10
+
+        x = 0
+        y = 8
+        relative_position_id = FOR_global_plan_red
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = FOR_kyokos_failure
+        icon = GFX
+        cost = 10
+
+        x = 0
+        y = 9
+        relative_position_id = FOR_global_plan_red
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = FOR_homuras_paitence
+        icon = GFX
+        cost = 10
+
+        x = 0
+        y = 10
+        relative_position_id = FOR_global_plan_red
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = FOR_global_plan_yellow
+        icon = GFX
+        cost = 10
+
+        x = 6
+        y = 14
+        relative_position_id = FOR_go_to_mcdolans
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = FOR_the_greatest_danger
+        icon = GFX
+        cost = 10
+
+        x = -1
+        y = 1
+        relative_position_id = FOR_global_plan_yellow
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = FOR_global_plan_blue
+        icon = GFX
+        cost = 10
+
+        x = -7
+        y = 14
+        relative_position_id = FOR_go_to_mcdolans
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = FOR_kill_their_unity
+        icon = GFX
+        cost = 10
+
+        x = -1
+        y = 1
+        relative_position_id = FOR_global_plan_blue
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = FOR_sayaka_tards
+        icon = GFX
+        cost = 10
+
+        x = 1
+        y = 1
+        relative_position_id = FOR_global_plan_blue
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = FOR_the_crack
+        icon = GFX
+        cost = 10
+
+        x = 0
+        y = 2
+        relative_position_id = FOR_global_plan_blue
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = FOR_allies_in_the_ecc
+        icon = GFX
+        cost = 10
+
+        x = 0
+        y = 3
+        relative_position_id = FOR_global_plan_blue
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = FOR_slush_funds_to_tanya
+        icon = GFX
+        cost = 10
+
+        x = 2
+        y = 4
+        relative_position_id = FOR_global_plan_blue
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = FOR_military_advisors
+        icon = GFX
+        cost = 10
+
+        x = 2
+        y = 5
+        relative_position_id = FOR_global_plan_blue
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = FOR_whisper_in_their_ear
+        icon = GFX
+        cost = 10
+
+        x = 2
+        y = 6
+        relative_position_id = FOR_global_plan_blue
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = FOR_contact_the_vile_canadians
+        icon = GFX
+        cost = 10
+
+        x = -2
+        y = 4
+        relative_position_id = FOR_global_plan_blue
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = FOR_slip_them_some_ammo
+        icon = GFX
+        cost = 10
+
+        x = -2
+        y = 5
+        relative_position_id = FOR_global_plan_blue
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = FOR_lost_shipments
+        icon = GFX
+        cost = 10
+
+        x = -2
+        y = 6
+        relative_position_id = FOR_global_plan_blue
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = FOR_greatest_threat
+        icon = GFX
+        cost = 10
+
+        x = 0
+        y = 7
+        relative_position_id = FOR_global_plan_blue
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = FOR_encourage_seperatism
+        icon = GFX
+        cost = 10
+
+        x = 0
+        y = 8
+        relative_position_id = FOR_global_plan_blue
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = FOR_sayakas_incompetence
+        icon = GFX
+        cost = 10
+
+        x = 0
+        y = 9
+        relative_position_id = FOR_global_plan_blue
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = FOR_homuras_wisdom
+        icon = GFX
+        cost = 10
+
+        x = 0
+        y = 10
+        relative_position_id = FOR_global_plan_blue
+
+        completion_reward = {
+
+        }
+    }
+}
