@@ -9,7 +9,8 @@ state=
 	
 	history=
 	{
-		owner = DEN
+		owner = JIM
+		add_core_of = JIM
 		victory_points = { 12674 1 }
 		buildings = {
 			infrastructure = 1

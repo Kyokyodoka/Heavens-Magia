@@ -1,0 +1,88 @@
+focus_tree = {
+	id = shrek
+	
+	country = {
+		factor = 0
+		
+	}
+	
+	default = no
+	reset_on_civilwar = no
+	focus = {
+        id = SHREK_SOMEBODY
+        icon = GFX
+        cost = 10
+
+        x = 11
+        y = 0
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = SHREK_ONCE_TOLD_ME
+        icon = GFX
+        cost = 10
+
+        x = 0
+        y = 1
+        relative_position_id = SHREK_SOMEBODY
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = SHREK_THE_WORLD_IS_GONNA_ROLL_ME
+        icon = GFX
+        cost = 10
+
+        x = 0
+        y = 2
+        relative_position_id = SHREK_SOMEBODY
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = SHREK_NOT_THE_SHARPEST_TOOL
+        icon = GFX
+        cost = 10
+
+        x = 0
+        y = 3
+        relative_position_id = SHREK_SOMEBODY
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = SHREK_rights_for_fairy_tale_beings
+        icon = GFX
+        cost = 10
+
+        x = -2
+        y = 4
+        relative_position_id = SHREK_SOMEBODY
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = SHREK_abandoned_by_magical_girls
+        icon = GFX
+        cost = 10
+
+        x = 2
+        y = 4
+        relative_position_id = SHREK_SOMEBODY
+
+        completion_reward = {
+
+        }
+    }
+}

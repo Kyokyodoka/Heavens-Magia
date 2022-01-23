@@ -8,7 +8,8 @@ state={
 	state_category = town
 
 	history={
-		owner = NIC
+		owner = COL
+		add_core_of = COL
 		buildings = {
 			infrastructure = 2
 			arms_factory = 1

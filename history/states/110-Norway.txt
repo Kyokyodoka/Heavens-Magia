@@ -15,7 +15,8 @@ state={
 			6115 15 
 		}
 		
-		owner = NOR
+		owner = SWE
+		add_core_of = SWE
 		buildings = {
 			infrastructure = 3
 			arms_factory = 2

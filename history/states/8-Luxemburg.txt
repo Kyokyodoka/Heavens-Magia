@@ -12,7 +12,8 @@ state=
 
 	history=
 	{
-		owner = LUX
+		owner = FRA
+		add_core_of = FRA
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1

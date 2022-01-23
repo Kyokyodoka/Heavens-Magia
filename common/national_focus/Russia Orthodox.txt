@@ -1,0 +1,529 @@
+focus_tree = {
+	id = orthodox_russia
+	
+	country = {
+		factor = 0
+		
+	}
+	
+	default = no
+	reset_on_civilwar = no
+	focus = {
+        id = RUS_another_catherine
+        icon = GFX
+        cost = 10
+
+        x = 14
+        y = 0
+
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = RUS_make_up_with_society
+        icon = GFX
+        cost = 10
+
+        x = 0
+        y = 1
+        relative_position_id = RUS_another_catherine
+        prerequisite = {
+            focus = RUS_another_catherine
+        }
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = RUS_actually_learn_russian
+        icon = GFX
+        cost = 10
+
+        x = 2
+        y = 2
+        relative_position_id = RUS_another_catherine
+        prerequisite = {
+            focus = RUS_make_up_with_society
+        }
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = RUS_slavic_festivals
+        icon = GFX
+        cost = 10
+        
+        x = -2
+        y = 2
+        relative_position_id = RUS_another_catherine
+        prerequisite = {
+            focus = RUS_make_up_with_society
+        }
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = RUS_the_tsareena_is_sane
+        icon = GFX
+        cost = 10
+
+        x = 0
+        y = 3
+        relative_position_id = RUS_another_catherine
+        prerequisite = {
+            focus = RUS_actually_learn_russian
+        }
+        prerequisite = {
+            focus = RUS_slavic_festivals
+        }
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = RUS_prepare_for_coronation
+        icon = GFX
+        cost = 10
+
+        x = 0
+        y = 4
+        relative_position_id = RUS_another_catherine
+        prerequisite = {
+            focus = RUS_the_tsareena_is_sane
+        }
+        completion_reward = {
+
+        }
+    }
+
+    focus = {
+        id = RUS_meeting_with_the_clergy
+        icon = GFX
+        cost = 10
+
+        x = 0
+        y = 5
+        relative_position_id = RUS_another_catherine
+        prerequisite = {
+            focus = RUS_prepare_for_coronation
+        }
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = RUS_like_those_before_her
+        icon = GFX
+        cost = 10
+
+        x = -2
+        y = 5
+        relative_position_id = RUS_another_catherine
+        prerequisite = {
+            focus = RUS_prepare_for_coronation
+        }
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = RUS_rasputin_teachings
+        icon = GFX
+        cost = 10
+
+        x = 2
+        y = 5
+        relative_position_id = RUS_another_catherine
+        prerequisite = {
+            focus = RUS_prepare_for_coronation
+        }
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = RUS_offically_tsareena
+        icon = GFX
+        cost = 10
+
+        x = 0
+        y = 6
+        relative_position_id = RUS_another_catherine
+        prerequisite = {
+            focus = RUS_like_those_before_her
+        }
+        prerequisite = {
+            focus = RUS_meeting_with_the_clergy
+        }
+        prerequisite = {
+            focus = RUS_rasputin_teachings
+        }
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = RUS_look_west
+        icon = GFX
+        cost = 10
+
+        x = -4
+        y = 7
+        relative_position_id = RUS_another_catherine
+        prerequisite = {
+            focus = RUS_offically_tsareena
+        }
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = RUS_look_east
+        icon = GFX
+        cost = 10
+
+        x = 4
+        y = 7
+        relative_position_id = RUS_another_catherine
+        prerequisite = {
+            focus = RUS_offically_tsareena
+        }
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = RUS_bring_oriko_in
+        icon = GFX
+        cost = 10
+
+        x = -2
+        y = 1
+        relative_position_id = RUS_look_east
+        prerequisite = {
+            focus = RUS_look_east
+        }
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = RUS_siberia
+        icon = GFX
+        cost = 10
+
+        x = 0
+        y = 1
+        relative_position_id = RUS_look_east
+        prerequisite = {
+            focus = RUS_look_east
+        }
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = RUS_restore_order_in_turks
+        icon = GFX
+        cost = 10
+
+        x = 2
+        y = 1
+        relative_position_id = RUS_look_east
+        prerequisite = {
+            focus = RUS_look_east
+        }
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = RUS_middle_eastern_expedition
+        icon = GFX
+        cost = 10
+
+        x = -1
+        y = 2
+        relative_position_id = RUS_look_east
+        prerequisite = {
+            focus = RUS_bring_oriko_in
+        }
+        prerequisite = {
+            focus = RUS_siberia
+        }
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = RUS_central_russia_unification
+        icon = GFX
+        cost = 10
+
+        x = 1
+        y = 2
+        relative_position_id = RUS_look_east
+        prerequisite = {
+            focus = RUS_restore_order_in_turks
+        }
+        prerequisite = {
+            focus = RUS_siberia
+        }
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = RUS_finish_our_work
+        icon = GFX
+        cost = 10
+
+        x = 0
+        y = 3
+        relative_position_id = RUS_look_east
+        prerequisite = {
+            focus = RUS_middle_eastern_expedition
+        }
+        prerequisite = {
+            focus = RUS_central_russia_unification
+        }
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = RUS_final_push_east
+        icon = GFX
+        cost = 10
+
+        x = 0
+        y = 4
+        relative_position_id = RUS_look_east
+        prerequisite = {
+            focus = RUS_finish_our_work
+        }
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = RUS_formosan_connection
+        icon = GFX
+        cost = 10
+
+        x = 0
+        y = 5
+        relative_position_id = RUS_look_east
+        prerequisite = {
+            focus = RUS_final_push_east
+        }
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = RUS_take_over_poos
+        icon = GFX
+        cost = 10
+
+        x = -2
+        y = 6
+        relative_position_id = RUS_look_east
+        prerequisite = {
+            focus = RUS_formosan_connection
+        }
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = RUS_fix_japan
+        icon = GFX
+        cost = 10
+
+        x = 2
+        y = 6
+        relative_position_id = RUS_look_east
+        prerequisite = {
+            focus = RUS_formosan_connection
+        }
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = RUS_make_the_tanks_submit
+        icon = GFX
+        cost = 10
+
+        x = 0
+        y = 1
+        relative_position_id = RUS_look_west
+        prerequisite = {
+            focus = RUS_look_west
+        }
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = RUS_retake_finland
+        icon = GFX
+        cost = 10
+
+        x = -2
+        y = 1
+        relative_position_id = RUS_look_west
+        prerequisite = {
+            focus = RUS_look_west
+        }
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = RUS_gypsies_submit
+        icon = GFX
+        cost = 10
+
+        x = 2
+        y = 1
+        relative_position_id = RUS_look_west
+        prerequisite = {
+            focus = RUS_look_west
+        }
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = RUS_war_with_poland
+        icon = GFX
+        cost = 10
+
+        x = -1
+        y = 2
+        relative_position_id = RUS_look_west
+        prerequisite = {
+            focus = RUS_retake_finland
+        }
+        prerequisite = {
+            focus = RUS_make_the_tanks_submit
+        }
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = RUS_war_with_roaches
+        icon = GFX
+        cost = 10
+
+        x = 1
+        y = 2
+        relative_position_id = RUS_look_west
+        prerequisite = {
+            focus = RUS_make_the_tanks_submit
+        }
+        prerequisite = {
+            focus = RUS_gypsies_submit
+        }
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = RUS_secure_the_south
+        icon = GFX
+        cost = 10
+
+        x = 0
+        y = 3
+        relative_position_id = RUS_look_west
+        prerequisite = {
+            focus = RUS_war_with_poland
+        }
+        prerequisite = {
+            focus = RUS_war_with_roaches
+        }
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = RUS_end_the_godless_menace
+        icon = GFX
+        cost = 10
+
+        x = 0
+        y = 4
+        relative_position_id = RUS_look_west
+        prerequisite = {
+            focus = RUS_secure_the_south
+        }
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = RUS_reach_out_to_iberia
+        icon = GFX
+        cost = 10
+
+        x = 0
+        y = 5
+        relative_position_id = RUS_look_west
+        prerequisite = {
+            focus = RUS_end_the_godless_menace
+        }
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = RUS_destroy_the_pastas
+        icon = GFX
+        cost = 10
+
+        x = 2
+        y = 6
+        relative_position_id = RUS_look_west
+        prerequisite = {
+            focus = RUS_reach_out_to_iberia
+        }
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = RUS_destroy_the_anglos
+        icon = GFX
+        cost = 10
+
+        x = -2
+        y = 6
+        relative_position_id = RUS_look_west
+        prerequisite = {
+            focus = RUS_reach_out_to_iberia
+        }
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = RUS_triumph
+        icon = GFX
+        cost = 10
+
+        x = 0
+        y = 14
+        relative_position_id = RUS_another_catherine
+        completion_reward = {
+
+        }
+    }
+	
+}

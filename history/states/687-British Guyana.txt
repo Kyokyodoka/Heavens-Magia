@@ -11,7 +11,8 @@ state={
 
 	history={
 		add_core_of = GYA
-		owner = ENG
+		owner = BRA
+		add_core_of = BRA
 		victory_points = {
 			4982 1
 		}

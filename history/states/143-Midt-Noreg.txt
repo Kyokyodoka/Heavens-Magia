@@ -7,7 +7,8 @@ state={
 	state_category = rural
 
 	history={
-		owner = NOR
+		owner = JIM
+		add_core_of = JIM
 		buildings = {
 			infrastructure = 2
 			arms_factory = 0

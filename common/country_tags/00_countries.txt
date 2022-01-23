@@ -245,8 +245,11 @@ GRA = "countries/Graveguard.txt"
 
 #Europe
 IBR = "countries/Iberia.txt"
+RUS = "countries/Russia.txt"
 SIE = "countries/Siebenbürgen.txt"
 
 #Asia
 FOR = "countries/Formosa.txt"
 NEU = "countries/Neusantara.txt"
+#Special
+ZZZ = "countries/Future.txt"

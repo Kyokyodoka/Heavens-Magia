@@ -8,7 +8,8 @@ state=
 	
 	history=
 	{
-		owner = DEN
+		owner = JIM
+		add_core_of = JIM
 		buildings = {
 			infrastructure = 1
 			12512 ={

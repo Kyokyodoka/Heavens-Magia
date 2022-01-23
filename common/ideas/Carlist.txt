@@ -1,0 +1,146 @@
+ideas = {
+
+	country = {
+	
+		spanish_inquistion = {
+		
+			picture = belgian_political_system
+			
+			allowed = {
+				original_tag = IBR
+			}
+			
+			modifier = {
+				stability_factor = 0.05
+				political_power_gain = 0.3
+			}
+			
+		}
+		last_bastion_of_catholicsm = {
+		
+			picture = belgian_political_system
+			
+			allowed = {
+				original_tag = IBR
+			}
+			
+			modifier = {
+				surrender_limit = 0.99
+				war_support_weekly = 0.04
+			}
+			
+		}
+		purged_magical_girls = {
+		
+			picture = belgian_political_system
+			
+			allowed = {
+				original_tag = IBR
+			}
+			
+			modifier = {
+			}
+			
+		}
+		memory_of_carlos_de_carlos = {
+		
+			picture = belgian_political_system
+			
+			allowed = {
+				original_tag = IBR
+			}
+			
+			modifier = {
+			}
+		}
+		human_supremacy = {
+		
+			picture = belgian_political_system
+			
+			allowed = {
+				original_tag = IBR
+			}
+			
+			modifier = {
+			}
+		}
+		holy_crusade = {
+		
+			picture = belgian_political_system
+			
+			allowed = {
+				original_tag = IBR
+			}
+			
+			modifier = {
+			}
+		}
+		homura_influence = {
+		
+			picture = belgian_political_system
+			
+			allowed = {
+				original_tag = IBR
+			}
+			
+			modifier = {
+			}
+		}
+		minor_falange_influence = {
+		
+			picture = belgian_political_system
+			
+			allowed = {
+				original_tag = IBR
+			}
+			
+			modifier = {
+			}
+		}
+		only_sane_man = {
+		
+			picture = belgian_political_system
+			
+			allowed = {
+				original_tag = IBR
+			}
+			
+			modifier = {
+			}
+		}
+		witch_trials = {
+		
+			picture = belgian_political_system
+			
+			allowed = {
+				original_tag = IBR
+			}
+			
+			modifier = {
+			}
+		}
+		IBR_conpiracies = {
+		
+			picture = belgian_political_system
+			
+			allowed = {
+				original_tag = IBR
+			}
+			
+			modifier = {
+			}
+		}
+		500_civil_wars = {
+		
+			picture = belgian_political_system
+			
+			allowed = {
+				original_tag = IBR
+			}
+			
+			modifier = {
+			}
+		}
+	}
+	
+}
