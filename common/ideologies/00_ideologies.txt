@@ -77,8 +77,6 @@ ideologies = {
 			}
 			Populist = {
 			}
-			PopulistRight = {
-			}
 			PopulistLeft = {
 			}
 			SendaistCultofLinen = {
@@ -198,6 +196,8 @@ ideologies = {
 			Legionarism = {
 			}
 			JINROH = {
+			}
+			PopulistRight = {
 			}
 			Corpritism = {
 			}
